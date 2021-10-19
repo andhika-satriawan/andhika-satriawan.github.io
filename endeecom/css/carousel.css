@@ -388,4 +388,19 @@ a.carousel-control-next:hover {
   .top-content .carousel-control-next {
     margin: 0 1em;
   }
+
+  .gallery-controls {
+    padding: 0 3em;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .top-content .carousel-control-prev, 
+  .top-content .carousel-control-next {
+    margin: 0 0.5em;
+  }
+
+  .gallery-controls {
+    padding: 0 1em;
+  }
 }
