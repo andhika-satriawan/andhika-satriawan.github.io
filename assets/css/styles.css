@@ -297,7 +297,7 @@ img{
 
 .home__blob{
     width: 200px;
-    fill: var(--first-color);
+    fill: var(--first-color-lighter);
 }
 
 .home__blob-img{
@@ -1012,6 +1012,53 @@ img{
 
 ::-webkit-scrollbar-thumb:hover{
     background-color: var(--text-color-light);
+}
+
+
+/*==================== CUSTOM CSS ====================*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  margin: 0;
+}
+
+#nav-menu a:hover, .dropdown:hover .dropbtn {
+  cursor: pointer;  
+  color: var(--first-color);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /*==================== MEDIA QUERIES ====================*/
